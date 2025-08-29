@@ -1,15 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #181a20; /* خلفية داكنة */
-    color: #e0e0e0; /* نص فاتح */
+    background-color: #181a20; 
+    color: #e0e0e0; 
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
 
-/* Header */
 .header {
-    background-color: #232946; /* أزرق داكن */
+    background-color: #232946; 
     padding: 20px;
     text-align: center;
     font-size: 24px;
@@ -25,7 +24,6 @@ body {
     text-align: center;
 }
 
-/* Links in header */
 .header a {
     transition: color 0.3s ease;
     text-decoration: none;
@@ -34,22 +32,21 @@ body {
 }
 .header a:link,
 .header a:visited {
-    color: #35b6ff; /* أزرق فاتح */
+    color: #35b6ff; 
 }
 .header a:hover {
-    color: #ffb800; /* أصفر عند hover */
+    color: #ffb800; 
 }
 .header a:active {
-    color: #ef4444; /* أحمر عند الضغط */
+    color: #ef4444; 
 }
 
-/* Sections */
 .about, .projects, .contact {
     padding: 30px 20px;
     margin: 20px auto;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    background-color: #232946; /* أزرق داكن */
+    background-color: #232946; 
     color: #e0e0e0;
     max-width: 800px;
     transition: transform 0.3s ease;
@@ -58,10 +55,9 @@ body {
     transform: scale(1.02);
 }
 .about h2, .projects h2, .contact h2 {
-    color: #35b6ff; /* عناوين بلون أزرق فاتح */
+    color: #35b6ff; 
 }
 
-/* Contact Links */
 .contact a {
     transition: color 0.3s ease;
     text-decoration: none;
@@ -69,18 +65,17 @@ body {
 }
 .contact a:link,
 .contact a:visited {
-    color: #ffb800; /* أصفر */
+    color: #ffb800;
 }
 .contact a:hover {
-    color: #35b6ff; /* أزرق فاتح */
+    color: #35b6ff; 
 }
 .contact a:active {
-    color: #ef4444; /* أحمر */
+    color: #ef4444; 
 }
 
-/* Footer */
 footer {
-    background-color: #232946; /* أزرق داكن */
+    background-color: #232946;
     text-align: center;
     padding: 15px;
     font-size: 14px;
