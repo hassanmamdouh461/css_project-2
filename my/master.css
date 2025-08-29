@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #181a20;
-    color: #e0e0e0;
+    background-color: #181a20; 
+    color: #e0e0e0; 
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
@@ -32,13 +32,13 @@ body {
 }
 .header a:link,
 .header a:visited {
-    color: #35b6ff;
+    color: #35b6ff; 
 }
 .header a:hover {
-    color: #ffb800;
+    color: #ffb800; 
 }
 .header a:active {
-    color: #ef4444;
+    color: #ef4444; 
 }
 
 .about, .projects, .contact {
@@ -68,10 +68,10 @@ body {
     color: #ffb800;
 }
 .contact a:hover {
-    color: #35b6ff;
+    color: #35b6ff; 
 }
 .contact a:active {
-    color: #ef4444;
+    color: #ef4444; 
 }
 
 footer {
