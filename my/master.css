@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #181a20; /* خلفية داكنة */
+    color: #e0e0e0; /* نص فاتح */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #232946; /* أزرق داكن */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0;
+    border-bottom: 3px solid #121629;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.name {
+    font-size: 32px;
+    color: #e0e0e0; 
+    margin: 0;
+    text-align: center;
+}
+
+/* Links in header */
+.header a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.header a:link,
+.header a:visited {
+    color: #35b6ff; /* أزرق فاتح */
+}
+.header a:hover {
+    color: #ffb800; /* أصفر عند hover */
+}
+.header a:active {
+    color: #ef4444; /* أحمر عند الضغط */
+}
+
+/* Sections */
+.about, .projects, .contact {
+    padding: 30px 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    background-color: #232946; /* أزرق داكن */
+    color: #e0e0e0;
+    max-width: 800px;
+    transition: transform 0.3s ease;
+}
+.about:hover, .projects:hover, .contact:hover {
+    transform: scale(1.02);
+}
+.about h2, .projects h2, .contact h2 {
+    color: #35b6ff; /* عناوين بلون أزرق فاتح */
+}
+
+/* Contact Links */
+.contact a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact a:link,
+.contact a:visited {
+    color: #ffb800; /* أصفر */
+}
+.contact a:hover {
+    color: #35b6ff; /* أزرق فاتح */
+}
+.contact a:active {
+    color: #ef4444; /* أحمر */
+}
+
+/* Footer */
+footer {
+    background-color: #232946; /* أزرق داكن */
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #e0e0e0;
+    border-top: 3px solid #121629;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
